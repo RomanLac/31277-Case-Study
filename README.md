@@ -1,5 +1,11 @@
 ## Address Table
 
+- Addresses follow the VLSM design in Part 1. The first valid host in each subnet is the default gateway, and the second is the host or switch.
+- Hosts A1, C and the Mobile Host get their addresses from DHCP, so no static address is set on them.
+- R2 G0/0 has no address itself. The addresses are on the subinterfaces (G0/0.10, .20, .99), which are added on Day 3.
+- R4, R5 and R6 serial addresses assume R4 S0/1/1 connects to R5 and R4 S0/0/0 connects to R6. If the cabling changes, update this table.
+- If the .pkt and this table disagree, the .pkt is the source of truth. Update this table when you change anything.
+
 | Device | Interface / Default Gateway | IP address/prefix |
 |---|---|---|
 | Internet | G0/0 | 138.25.88.85/30 |
