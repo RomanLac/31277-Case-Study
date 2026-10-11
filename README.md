@@ -1,3 +1,13 @@
+## To Do
+
+- [x] Day 1: Topology, cabling, IPs, hostnames
+- [ ] Day 2: OSPF, static routes, passwords, SSH
+- [ ] Day 3: VLANs, inter-VLAN routing, DHCP
+- [ ] Day 4: NAT and ACLs
+- [ ] Day 5: WLAN and full connectivity test
+- [ ] Day 6: Report
+- [ ] Day 7: Final review and submit
+
 ## Address Table
 
 - Addresses follow the VLSM design in Part 1. The first valid host in each subnet is the default gateway, and the second is the host or switch.
