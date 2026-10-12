@@ -8,6 +8,21 @@
 - [ ] Day 6: Report
 - [ ] Day 7: Final review and submit
 
+## Notes
+
+| Router | OSPF router ID |
+|---|---|
+| R1 | 9.9.9.9 (DR on Sw4 segment) |
+| R2 | 8.8.8.8 |
+| R3 | 7.7.7.7 |
+| R4 | 192.168.0.122 (auto) |
+| R5 | 172.10.0.153 (auto) |
+| R6 | 172.10.0.157 (auto) |
+
+- Passwords: enable secret `class`, console/vty `cisco`, SSH on R3 (`admin` / `adminpass`)
+- R1 has the default route to the Internet and passes it into OSPF
+- Passive interfaces: R1 S0/1/1, R3 G0/1, R5 G0/0, R6 G0/0 and G0/1
+
 ## Address Table
 
 - Addresses follow the VLSM design in Part 1. The first valid host in each subnet is the default gateway, and the second is the host or switch.
