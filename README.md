@@ -1,7 +1,7 @@
 ## To Do
 
 - [x] Day 1: Topology, cabling, IPs, hostnames
-- [ ] Day 2: OSPF, static routes, passwords, SSH
+- [X] Day 2: OSPF, static routes, passwords, SSH
 - [X] Day 3: VLANs, inter-VLAN routing, DHCP
 - [ ] Day 4: NAT and ACLs
 - [ ] Day 5: WLAN and full connectivity test
